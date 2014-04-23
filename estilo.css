@@ -1,0 +1,154 @@
+body{
+    background-repeat: repeat;
+    background-image: url('img/bg.png');
+    border-top: 15px solid #000;
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    color: #666;
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: left;
+}
+#container{
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+    position: relative;
+    height: 100px;
+    width: 100%;
+}
+#logo{
+    position: relative;
+    top: 25px;
+}
+/* MENU */
+nav{
+    position: absolute;
+    background-color: white;
+    top: 37px;
+    right: 0px;
+    width: 500px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    padding-left: 5px;
+}
+nav ul li{
+    text-transform: uppercase;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+    font-family: fantasy;
+    font-size: 20px;
+    display: block;
+}
+nav ul li a:hover{
+    color: maroon;
+}
+/* FIM MENU */
+#intro{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.autor{
+    font-size: 20px;
+    color: #666;
+}
+h1{
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 0.9;
+    font-family: Arial,Helvetica, sans-serif;
+    color: black;
+    margin-bottom: 10px;
+}
+h2.linha{
+    font-weight: normal;
+    line-height: 1.6;
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+}
+#content{
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.sobre, .servicos, .noticias{
+    position: relative;
+    width: 306px;
+    float: left;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.servicos{
+    margin-left: 31px;
+}
+.noticias{
+    float: right;
+}
+.artigo{
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: darkred;
+    clear: both;
+}
+.footer1{
+    position: relative;
+    width: 440px;
+    background-color: #FFF;
+    height: 100px;
+    top: 10px;
+}
+.footer2{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 300px;
+    height: 100px;
+    background-color: #000;
+}
+section img{
+    padding: 5px;
+    width: 260px;
+    height: 220px;
+    border: 1px solid black;
+    opacity: 0.80;
+}
+section img:hover{
+    opacity: 1;
+    box-shadow: 1px 1px gray;
+}
+button{
+    float: left;
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    box-shadow: 1.5px 1.5px gray;
+    border: none;
+    cursor: pointer;
+}
